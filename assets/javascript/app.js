@@ -1,4 +1,4 @@
-//Quiz Info Array//
+//Quiz Info Array with nested arrays//
 
 var queries = [{
   
@@ -23,7 +23,7 @@ var queries = [{
   answer: "Voltron"
 }, {
   question: "Which of the following isn't a real game?",
-  choices: ["Spyro Bandicoot: Spinnin", "Mario Hotel", "Banjo-Kazooie: Grunty's Revenge", "Dikembe mutombo's 4 1/2 weeks to save the world"],
+  choices: ["Spyro Bandicoot: Spinnin", "Mario Hotel", "Banjo-Kazooie", "Dikembe Mutombo's 4 1/2 weeks to save the world"],
   answer: "Spyro Bandicoot: Spinnin"
 }, {
   question: "Which console came first",
