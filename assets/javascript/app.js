@@ -178,7 +178,7 @@ var game = {
 
   },
 
-  //Clear timer and HTML then display results//
+  //Clear timer and set page content to display results//
 
   result: function() {
 
