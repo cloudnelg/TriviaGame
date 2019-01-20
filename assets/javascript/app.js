@@ -31,7 +31,11 @@ var queries = [{
   answer: "Dreamcast"
 }]; 
 
-console.log(queries[1].question)
+// Testing if the nesting is working as intended //
+
+console.log("Question:", queries[1].question)
+console.log("Choice:", queries[1].choices[0])
+console.log("Answer:", queries[1].answer)
 
 //Event Handlers//
 
@@ -174,7 +178,7 @@ var game = {
 
   },
 
-  //Clear timer and HTML and display results//
+  //Clear timer and HTML then display results//
 
   result: function() {
 
